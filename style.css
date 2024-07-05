@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Body */
+body{
+    background: black;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+}
+.navbar a:hover{
+    color: #00abf0;
+    font-size: large;
+}
+/* hi iam lavis */
+h1{
+    color: white;
+    padding: 10%;
+    font-size: 40px;
+    margin-top: 3%;
+}
+p{
+    color: #00abf0;
+    font-size: 30px;
+}
+dd{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.about{
+    margin-top: 1px;
+}
+button{
+    text-align: center;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #00abf0;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 123px;
+    margin: 7px;
+    margin-top: 40px;
+    background:linear-gradient(to top, #00abf0 50%,#081b29 50%);
+    font-weight: bold;
+    transition: all 0.1s;
+    background-size: 100% 200%;
+    cursor: pointer;
+}
+button:hover{
+    color: #081b29;
+    background-position: right bottom;
+}
+.cv{
+    text-decoration: none;
+    color: #00abf0;
+    background-position: right bottom;
+}
+.cv:hover{
+    color: #081b29;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    color: #00abf0;
+}
+/* intro about me */
+.about{
+    color: white;
+    margin-left: 15%;
+    margin-inline-start: 25%;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 121px; ;
+    padding: 2px; ;
+    margin-right: 10%;
+    margin-top:-94px;
+
+}
+/* developer gif */
+.aboutimage{
+    margin-left: 28%;
+    border-radius: 0%;
+    background: transparent;
+    height: 100%;
+    width: 500px;
+    border: 0;
+    padding: 0;
+}
+.aboutimage:hover{
+    scale: none;
+    border: 0;
+    border-radius: 0;
+}
+
+h4{
+    margin-left: 25%;
+    color: #00abf0;
+    font-size: large;
+    margin: 113px;
+    margin-top:  -31px;
+}
+mark{
+    background: transparent;
+    color: #00abf0;
+}
+ img{ 
+    flex-direction: row;
+    display: inline-flex;
+    height: 100%;
+    width: 200px;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 40px;
+    padding-left: 46px;
+    margin-left: 10%;
+    background: scroll #184463;
+    border-radius: 50%;
+}
+img:hover{
+    scale: 1.20;
+    border: 3px solid #0999ff;
+    border-radius: 50% ;
+}
+.contact{
+    text-align: center;
+    justify-content: center;
+}
+input{
+    background: transparent;
+    border: 1px solid #00abf0;
+    border-radius: 25px;
+    height: 35px;
+    width: 20%;
+    margin-top: 15px;
+}
+textarea{
+    background: transparent;
+    border: 2px solid #00abf0;
+}
+.switch{
+    height: 35px;
+    width: 30%;
+    border: 0;
+    border-radius: 0%;
+    transition: none;
+  margin-bottom:83px;
+}
+footer{
+    background: #184463;
+}
+footer a{
+    margin-top: 20px;
+    justify-content:center;
+    margin: 10px;
+    text-align: center;
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #00abf0;
+}
+h6{
+    margin-top: 2%;
+    text-align: center;
+    display:inline-flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+h6{
+    margin-top: 5%;
+    height: 100%;
+}
+h6 a:hover{
+    color: #081b29;
+}
+h5{
+    color: white;
+    text-align: center;
+    margin-top: -1%;
+    font-size:xx-large;
+}
+.animation{
+    background: linear-gradient( to top, #00abf0 100px ,#081b29 50%);
+    transition: all 0.6s;
+    background-size: 100% 200%;
+    
+}
+.animation:hover{
+    background-position: right bottom;
+}
